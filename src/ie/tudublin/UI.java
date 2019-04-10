@@ -45,7 +45,9 @@ public class UI extends PApplet
 		separate(381);
 		separate(1);
 		separate(92);
-
+		
+		loadColours();
+		printColours();
 		
 
 	}
