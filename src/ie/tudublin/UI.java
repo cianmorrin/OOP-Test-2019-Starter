@@ -22,9 +22,11 @@ public class UI extends PApplet
           }        
 	  }
 	  
-
-	
-      
+      public void printColours() {
+		for (Colour c : colours) {
+			System.out.println(c);
+		}
+	}
 
 	public void separate(int value)
 	{
@@ -43,6 +45,9 @@ public class UI extends PApplet
 		separate(381);
 		separate(1);
 		separate(92);
+
+		
+
 	}
 
 	public void setup() 
