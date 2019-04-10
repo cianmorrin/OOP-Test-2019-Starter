@@ -11,7 +11,6 @@ public class UI extends PApplet
 	
 	private ArrayList<Colour> colour = new ArrayList<Colour>();
 
-
 	public void separate(int value)
 	{
 		int hundreds = (value / 100);
