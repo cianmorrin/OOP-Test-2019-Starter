@@ -28,6 +28,20 @@ public class UI extends PApplet
 		}
 	}
 
+
+	
+
+	// public Colour findColour(int value){
+
+	// for (Colour c : colours) {
+	// 		if(c.getValue() == value)
+	// 		{
+	// 			return c;
+	// 		}
+
+	// 	}
+	// }
+
 	public void separate(int value)
 	{
 		int hundreds = (value / 100);
