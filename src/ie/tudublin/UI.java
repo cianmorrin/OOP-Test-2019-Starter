@@ -12,6 +12,8 @@ public class UI extends PApplet
 	private ArrayList<Colour> colours = new ArrayList<Colour>();
 //	private ArrayList<Resistor> resistors = new ArrayList<Resistor>();
 
+	private Colour colour;
+
 	public void loadColours()
       {
           Table table = loadTable("colours.csv", "header");
@@ -34,10 +36,12 @@ public class UI extends PApplet
 	for (Colour c : colours) {
 			if(c.getValue() == value)
 			{
-				return c;
+				System.out.println(c);
 			}
 
 		}
+
+		return colour;
 		
 	}
 
@@ -82,7 +86,7 @@ public class UI extends PApplet
 		
 		loadColours();
 		printColours();
-		findColour(4)
+		findColour(4);
 
 		// loadResistors();
 		// printResistors();
